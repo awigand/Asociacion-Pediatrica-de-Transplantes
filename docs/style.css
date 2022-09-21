@@ -1,0 +1,24 @@
+.container{
+    display: grid;
+    grid-template-columns: 80px 200px auto 40px;
+    grid-template-areas: "header header"   
+                            "left contenido"
+                            "footer footer";
+}
+.header{
+    grid-area: header;
+    background-color:paleturquoise;
+    padding: 10px;
+    color:white;
+
+}
+.left{
+    grid-area: left;
+}
+.contenido{
+    grid-area: contenido;
+}
+.footer{
+    grid-area: footer;
+}
+
