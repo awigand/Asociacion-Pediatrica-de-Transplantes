@@ -29,18 +29,18 @@ body{
     font-size: 2em; 
 }
 .item6{
-    grid-column: 1/2;
-    grid-row: 1/2;
+    grid-column: 1;
+    grid-row: 1;
 }
 .item1{
 background-color: rgb(164, 223, 164);
 color: black;
 font-size: 2em;
 text-align: center;
-grid-column-start: 3;
+grid-column-start: 2;
 grid-column-end: 6;
 grid-row-start: 1;
-grid-row-end: 2;
+grid-row-end: 1;
 }
 
 .item2{
