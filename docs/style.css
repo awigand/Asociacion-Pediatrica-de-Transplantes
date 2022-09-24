@@ -29,7 +29,8 @@ body{
     font-size: 2em; 
 }
 .item1{
-background-color: white;
+background-color: rgb(164, 223, 164);
+color: black;
 grid-column-start: 1;
 grid-column-end: 6;
 grid-row-start: 1;
