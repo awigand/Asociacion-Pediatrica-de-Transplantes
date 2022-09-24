@@ -11,7 +11,7 @@ body{
 .grid-container{
     display: grid;
     width: 90%;
-    height: 600px;
+    height: 1200px;
     outline: 2px solid;
     margin: 40px auto;
     grid-template-columns:repeat(5,1fr);
