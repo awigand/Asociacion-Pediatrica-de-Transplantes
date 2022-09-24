@@ -13,7 +13,7 @@ body{
     width: 90%;
     height: 800px;
     outline: 2px solid;
-    margin: 40px auto;
+    margin: 60px auto;
     grid-template-columns:repeat(5,1fr);
     
     grid-template-rows: repeat(8,1fr);
@@ -31,6 +31,8 @@ body{
 .item1{
 background-color: rgb(164, 223, 164);
 color: black;
+font-size: 4em;
+text-align: center;
 grid-column-start: 1;
 grid-column-end: 6;
 grid-row-start: 1;
