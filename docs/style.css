@@ -16,7 +16,7 @@ body{
     margin: 40px auto;
     grid-template-columns:repeat(5,1fr);
     
-    grid-template-rows: repeat(12,1fr);
+    grid-template-rows: repeat(10,1fr);
     /*row-gap: 5 px;
     column-gap: 5px;*/
     gap: 5px;
