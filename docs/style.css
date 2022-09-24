@@ -13,7 +13,7 @@ body{
     width: 90%;
     height: 800px;
     outline: 2px solid;
-    margin: 60px auto;
+    margin: 40px auto;
     grid-template-columns:repeat(5,1fr);
     
     grid-template-rows: repeat(8,1fr);
@@ -28,7 +28,7 @@ body{
     text-align: left;
     font-size: 2em; 
 }
-.itemI{
+.item6{
     grid-column: 1/2;
     grid-row: 1/2;
 }
