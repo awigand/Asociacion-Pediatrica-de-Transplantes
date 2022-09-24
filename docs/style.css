@@ -28,15 +28,19 @@ body{
     text-align: left;
     font-size: 2em; 
 }
+.itemI{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
 .item1{
 background-color: rgb(164, 223, 164);
 color: black;
 font-size: 2em;
 text-align: center;
-grid-column-start: 1;
+grid-column-start: 3;
 grid-column-end: 6;
 grid-row-start: 1;
-grid-row-end: 3;
+grid-row-end: 2;
 }
 
 .item2{
