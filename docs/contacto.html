@@ -1,20 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleform.css">
+  <title>Contacto</title>
 </head>
-<form action="/action_page.php">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value="John"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value="Doe"><br><br>
-    <input type="submit" value="Submit">
-  </form> 
-  
-  <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-  
-  </body>
+<body>
+  <header class="header1">
+    <img src="image/logo.jpg" alt="logo Asociación Pediátrica de Transplantes" width="180" height="180" >
+    <p>Desde la Asociación Pediátrica de Transplantes queremos acompañarte en este camino
+      de lograr una vida saludable, física y emocionalmente. 
+      <br>¿Te querés unir? 
+      <br>Completá por favor estos datos y nos comunicaremos.
+    </p>
+  </header>
+  <div class="container">
+    <form action="action_page.php">
+      <div class="row">
+        <div class="colsmall">
+          <label for="fname">Nombre</label>
+        </div>
+        <div class="collarge">
+          <input type="text" id="fname" name="firstname" placeholder="Complete con su nombre..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="colsmall">
+          <label for="lname">Apellido</label>
+        </div>
+        <div class="collarge">
+          <input type="text" id="lname" name="lastname" placeholder="Complete con su apellido..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="colsmall">
+          <label for="tel">Teléfono</label>
+        </div>
+        <div class="collarge">
+          <input type="text" id="tel" name="tel" placeholder="Complete con su teléfono, incluya el prefijo..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="colsmall">
+          <label for="city">Ciudad de residencia</label>
+        </div>
+        <div class="collarge">
+          <input type="text" id="city" name="city" placeholder="Complete con ciudad y provincia..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="colsmall">
+          <label for="subject">Mensaje</label>
+        </div>
+        <div class="collarge">
+          <textarea id="subject" name="subject" placeholder="Contanos.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Enviar">
+      </div>
+    </form>
+  </div>
+</body>
+<footer class="footer1">
+  <nav>
+    <a href="/docs/index.html">Inicio</a>
+    <br>
+    <a href="/docs/quienessomos.html">Quienes somos</a>
+    <br>
+    <a href="/docs/actividades.html">Nuestras actividades</a>
+</nav>
+</footer>
 </html>
