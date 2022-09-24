@@ -31,12 +31,14 @@ body{
 .item6{
     grid-column: 1;
     grid-row: 1;
+    text-align: center;
 }
 .item1{
 background-color: rgb(164, 223, 164);
 color: black;
 font-size: 2em;
 text-align: center;
+margin-top: 10px;
 grid-column-start: 2;
 grid-column-end: 6;
 grid-row-start: 1;
@@ -48,7 +50,7 @@ grid-row-end: 1;
    grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
-    grid-row-end: 8;
+    grid-row-end: 7;
   
 }
 .item3{
@@ -62,12 +64,13 @@ grid-row-end: 1;
 .item4{
 background-color: coral;
 grid-column: 3/6;
-grid-row: 4/8;
+grid-row: 4/7;
 
 }
 
 .item5{
     background-color: darkcyan;
     grid-column: 1/6;
+    grid-row: 8;
    
 }
