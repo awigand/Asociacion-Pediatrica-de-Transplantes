@@ -23,11 +23,20 @@ input[type=text], select, textarea{
   .header1 {
     background-color: white;
     color: black;
-    font-size: x-large;
+    font-size: large;
     text-align: center;
     text-align-last: center;
     padding-top: 40px;
     padding-left: 40px;
+    overflow: auto;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: rgb(164, 223, 164);
+    padding: 20px;
+    outline: 2px solid;
+    margin: 20px auto;
+    gap: 5px;
     overflow: auto;
   }
   .footer1{
@@ -37,11 +46,6 @@ input[type=text], select, textarea{
     text-align: center;
     font-size:x-large;
     overflow: auto;
-  }
-  .container {
-    border-radius: 5px;
-    background-color: rgb(164, 223, 164);
-    padding: 20px;
   }
   .colsmall {
     float: left;
