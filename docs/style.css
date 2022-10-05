@@ -177,6 +177,16 @@ overflow: auto;
     }
 }
 
+/* Layout */ 
+#contenido-general{
+	background-color:rgb(159, 245, 159);
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo, #area-menu{
+	padding: 10px;
+}
 
     
 
