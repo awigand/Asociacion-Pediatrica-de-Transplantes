@@ -179,14 +179,34 @@ overflow: auto;
 
 /* Layout */ 
 #contenido-general{
-	background-color:rgb(159, 245, 159);
+	background-color:rgb(114, 141, 172);
 	padding: 15px;
-	text-align: center;
+	text-align:start;
+  border-style: solid;
+  border-width: 1rem;
+   border-color:rgb(68, 160, 129);
 }
 
-#area-logo, #area-menu{
-	padding: 10px;
+#area-logo{
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  padding: 5px;
 }
-
-    
-
+#area-menu{
+	padding: 5px;
+  text-align: right;
+  white-space:nowrap;
+}
+#area-titulo{
+  position: absolute;
+  top: 5px;
+  left: 70px;
+	padding: 5px;
+}
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
