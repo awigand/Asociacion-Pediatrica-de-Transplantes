@@ -179,30 +179,29 @@ overflow: auto;
 
 /* Layout */ 
 #contenido-general{
-	background-color:rgb(159, 194, 235);
-	padding: 10px;
-	text-align:start;
+  background-color:rgb(159, 194, 235);
+  padding: 5px;
+  text-align:start;
   border-style: solid;
-  border-width: 0.5rem;
-   border-color:rgb(99, 189, 81);
+  border-width: 1rem;
+  border-color:rgb(99, 189, 81);
 }
 
 #area-logo{
   position: absolute;
-  top: 5px;
+  top: 10px;
   left: 10px;
-  padding: 5px;
+  padding: 1px;
 }
 #area-menu{
-	padding: 5px;
+  padding: 5px;
   text-align: right;
-  white-space:nowrap;
 }
 #area-titulo{
   position: absolute;
   top: 5px;
   left: 70px;
-	padding: 5px;
+  padding: 5px;
 }
 .centrado{
   position: absolute;
