@@ -38,7 +38,7 @@ body{
     text-align: center;
 }
 .item1{
-background-color: rgb(164, 223, 164);
+background-color: rgb(145, 190, 93);
 color: black;
 font-size: 2em;
 text-align: center;
@@ -73,7 +73,7 @@ overflow: auto;
     overflow: auto;
 }
 .item4{
-    background-color: rgb(100, 167, 167);
+    background-color: rgb(145, 190, 93);
     grid-column: 1/6;
     grid-row: 8/10;
     padding-bottom: 5px;
