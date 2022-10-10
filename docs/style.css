@@ -183,7 +183,7 @@ overflow: auto;
     text-align: start;
     border-style: solid;
     border-width: 1rem;
-    border-color:rgb(99, 189, 81);
+    border-color:rgb(145, 190, 93);
 }
 #area-logo{
   position: absolute;
@@ -200,10 +200,4 @@ overflow: auto;
   top: 5px;
   left: 70px;
   padding: 5px;
-}
-.centrado{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
