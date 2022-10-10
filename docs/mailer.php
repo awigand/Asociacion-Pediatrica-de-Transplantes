@@ -10,7 +10,7 @@ $message = $_POST['message'];
  
 $body = "From: $name_field\n E-Mail: $email_field\n $tel_field\n $city_field\n Message:\n $message";
  
-echo "Data has been submitted to $to!";
+echo "Envío correcto, gracias por su contacto";
 mail($to, $subject, $body);
 } else {
 echo "error!";
