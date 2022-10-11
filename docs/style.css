@@ -91,7 +91,7 @@ overflow: auto;
     -ms-transition: all 0.75s ease;
     -o-transition: all 0.75s ease;
     transition: all 0.75s ease;
-    height: 500px;
+    height: 100%;
     width: 300%;
 }
 #carrusel-contenido {
@@ -100,7 +100,7 @@ overflow: auto;
     text-align: left;
 }
 .imagenes{
-    height: 500px;
+    height: 100%;
     width: 100%;
 }
 .carrusel-elemento {
