@@ -56,52 +56,79 @@
     </p>
   </header>
   <div class="container">
-    <form action="mailer.php" method="post">
-
+    <form>
+    <!-- falta habilitar el acceso al mail -->
+    <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
       <div class="row">
         <div class="colsmall">
-          <label for="name">Nombre y Apellido</label>
+          <label>Nombre y Apellido</label>
         </div>
         <div class="collarge">
-          <input type="text" id="name" name="name" placeholder="Complete con su nombre y apellido..">
+          <input type="text" placeholder="Complete con su nombre y apellido.." id="contact-name" onkeyup="validateName()">
+          <span id="name-error"></span>
         </div>
       </div>
       <div class="row">
         <div class="colsmall">
-          <label for="email">Correo Electrónico</label>
+          <label>Correo Electrónico</label>
         </div>
         <div class="collarge">
-          <input type="email" id="email" name="email" size="100" placeholder="Complete con su correo electrónico..">
+          <input type="email" placeholder="Complete con su correo electrónico.." id="email">
         </div>
       </div>
       <div class="row">
         <div class="colsmall">
-          <label for="tel">Teléfono</label>
+          <label>Teléfono</label>
         </div>
         <div class="collarge">
-          <input type="text" id="tel" name="tel" placeholder="Complete con su teléfono, incluya el prefijo..">
+          <input type="text"  placeholder="Complete con su teléfono, incluya el prefijo.." id="contact-tel" onkeyup="validateTel()">
+          <span id="tel-error"></span>
         </div>
       </div>
       <div class="row">
         <div class="colsmall">
-          <label for="city">Ciudad de residencia</label>
+          <label>Ciudad de residencia</label>
         </div>
         <div class="collarge">
-          <input type="text" id="city" name="city" placeholder="Complete con ciudad y provincia..">
+          <input type="text" placeholder="Complete con ciudad y provincia.." id="city">
         </div>
       </div>
       <div class="row">
         <div class="colsmall">
-          <label for="message">Mensaje</label>
+          <label>Mensaje</label>
         </div>
         <div class="collarge">
-          <textarea id="message" name="message" placeholder="Contanos.." style="height:200px"></textarea>
+          <textarea placeholder="Contanos.." style="height:200px" id="contact-message" onkeyup="validateMessage()"></textarea>
+          <span id="mess-error"></span>
         </div>
       </div>
       <div class="row">
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar" onclick="return validateForm()">
+        <span id="submit-error"></span>
       </div>
     </form>
   </div>
+  <script src="script.js"></script>
+  <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    function sendEmail(){
+        Email.send({
+            SecureToken: "xxxxxx",
+            Host : "smtp.gmail.com",
+            Username : "andrea.wigand@gmail.com",
+            Password : "password",
+            To : 'andrea.wigand@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : "Contacto desde Pagina Web",
+            Body : "Name: "+ document.getElementById("contact-name").value
+                    + "<br> Correo Electrónico: "+ document.getElementById("email").value
+                    + "<br> Teléfono: "+ document.getElementById("contact-tel").value
+                    + "<br> Ciudad: "+ document.getElementById("city").value
+                    + "<br> Mensaje: "+ document.getElementById("contact-message").value
+        }).then(
+          message => alert(message)
+        );
+    }
+  </script> -->
 </body>
 </html>
