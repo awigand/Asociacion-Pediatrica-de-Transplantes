@@ -80,6 +80,7 @@ overflow: auto;
     padding-top: 5px;
     text-align: center;
     font-size:x-large;
+    overflow: auto;
 }
 #carrusel-caja {
     -moz-animation: automatizacion 15s infinite linear;
