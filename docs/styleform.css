@@ -1,6 +1,6 @@
 
 input[type=text], select, textarea{
-    width: 100%;
+    width: 90%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -19,6 +19,14 @@ input[type=text], select, textarea{
     border-radius: 4px;
     cursor: pointer;
     float: right;
+  }
+input[type=email]{
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
   }
   .header1 {
     background-color: white;
@@ -68,3 +76,14 @@ input[type=text], select, textarea{
       margin-top: 0;
     }
 }
+.input span{
+    position: absolute;
+    bottom: 12px;
+    right: 17px;
+    font-size: large;
+    color: red
+  }
+  
+  #submit-error{
+    color: red
+  }
