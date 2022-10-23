@@ -37,7 +37,7 @@ body{
     grid-column: 1;
     grid-row: 1;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 10px;
 }
 .item1{
 background-color: rgb(145, 190, 93);
@@ -45,8 +45,8 @@ color: black;
 font-size: 2em;
 text-align: center;
 text-align-last: center;
-padding-top: 4px;
-padding-left: 40px;
+padding-top: 7px;
+padding-left: 30px;
 grid-column-start: 2;
 grid-column-end: 6;
 grid-row-start: 1;
