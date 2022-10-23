@@ -189,19 +189,3 @@ overflow: auto;
     border-width: 1rem;
     border-color:rgb(145, 190, 93);
 }
-#area-logo{
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  padding: 1px;
-}
-#area-menu{
-  padding: 5px;
-  text-align: right;
-}
-#area-titulo{
-  position: absolute;
-  top: 5px;
-  left: 70px;
-  padding: 5px;
-}
